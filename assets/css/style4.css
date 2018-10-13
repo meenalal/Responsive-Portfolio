@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #666666;
+  font-size: 50%;
+  border-top: 5px solid #4aaaa5;
+}
+
+.header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 5px solid #424444;
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+.headernavitems a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  visibility: visible;
+  text-decoration: none;
+}
+
+.headernavitems a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.headername{
+  background-color: #4aaaa5;
+  display: inline-block;
+  margin-left: 15%;
+  margin-right:25%;
+  height:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.headername h1{
+  color: white;
+}
+.headernavitems{
+  list-style-type: none;
+}
+.headernavitems li{
+  float: left;
+}
+
+h1 {
+  font-size:25px;
+  word-break: break-all;
+  color: aqua;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  background-color: whitesmoke;
+  background-image: url(../images/oriental.png);
+  border-color: white;
+  margin-left: 15%;
+  margin-right:15%;
+  margin-top: 100px;
+  padding-top: 10px;
+  width: 1000px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0;
+  overflow: hidden;
+}
+.imgContainer {
+  float: left;
+}
+
+div.linkdiv{
+  background-color: #4aaaa5;
+  width: 100%;
+  height: 35px;
+}
+.linkdiv a{
+  text-decoration: none;
+}
+
+.linkdiv h1{
+  color: #fff;
+}
+
+div.hangman {
+  text-align: center;
+  height: 150px; 
+  width: 200px; 
+  border: 1px solid black; 
+  background-image: url(../images/mountains.jpg);
+  background-size: auto 100%;
+  padding-top: 90px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+
+div.rpggame {
+  text-align: center;
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-image: url(../images/mountains1.jpg);
+  background-size: auto 100%;
+  padding-top: 90px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+div.trivia {
+  text-align: center;
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-image: url(../images/mountains2.jpg);
+  background-size: auto 100%;
+  padding-top: 90px;
+  margin-bottom:40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+div.rutgers {
+  text-align: center;
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-image: url(../images/lights.jpg);
+  background-size: auto 100%;
+  padding-top: 90px;
+  margin-bottom:40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+div.rock {
+  text-align: center;
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-image: url(../images/bear.jpg);
+  background-size: auto 100%;
+  padding-top: 90px;
+  margin-bottom:40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#bio-image {
+  float: left;
+}
+
+input[type=text], textarea {
+  width: 90%;
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* resize: vertical; */
+  margin-left: 3%;
+  /* margin-right: 10px; */
+  display: block;
+}
+
+form label{
+  margin-left: 3%;
+}
+input[type=submit] {
+  background-color: aqua;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-left: 3%;
+}
+
+input[type=submit]:hover {
+  background-color: aqua;
+}

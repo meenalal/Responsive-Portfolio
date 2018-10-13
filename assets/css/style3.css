@@ -1,0 +1,112 @@
+div {
+    padding: 1.5px;
+  }
+  
+  .header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 5px solid #424444;
+    width: 100%;
+    height: 100px;
+    display: flex;
+  }
+  
+  .headernavitems a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    visibility: visible;
+    text-decoration: none;
+  }
+  
+  .headernavitems a:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+  .headername{
+    background-color: #4aaaa5;
+    display: inline-block;
+    margin-left: 15%;
+    margin-right:25%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headername h1{
+    color: white;
+  }
+  .headernavitems{
+    list-style-type: none;
+  }
+  .headernavitems li{
+    float: left;
+  }
+  
+  h1 {
+    font-size:25px;
+    word-break: break-all;
+    color: aqua;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+    color: blue;
+  }
+  
+  input[type=text], textarea {
+    width: 1000%;
+    padding: 6px 12px 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    resize: vertical;
+    margin-left: 100px;
+    margin-right: 10px;
+  }
+  
+  input[type=submit] {
+    background-color: aqua;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  input[type=submit]:hover {
+    background-color: aqua;
+  }
+  
+  .container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 5px;
+  }
+  
+  .content {
+    width: 80%;
+    background: white;
+    margin: auto;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #666666;
+    font-size: 50%;
+    border-top: 5px solid #4aaaa5;
+  
+  }
