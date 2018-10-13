@@ -15,7 +15,7 @@
 
 .header {
   background-color: white;
-  position: fixed;
+  position: static;
   top: 0;
   left: 0;
   border-bottom: 5px solid #424444;
@@ -25,6 +25,7 @@
 }
 
 .headernavitems a {
+  position: viewport;
   display: block;
   color: blue;
   text-align: center;
@@ -35,11 +36,13 @@
 }
 
 .headernavitems a:hover {
+  position: viewport;
   background-color: gray;
   color: white;
 }
 
 .headername{
+  position: viewport;
   background-color: #4aaaa5;
   display: inline-block;
   margin-left: 15%;
@@ -50,9 +53,11 @@
   justify-content: center;
 }
 .headername h1{
+  position: viewport;
   color: white;
 }
 .headernavitems{
+  position: viewport;
   list-style-type: none;
 }
 .headernavitems li{
@@ -60,12 +65,14 @@
 }
 
 h1 {
+  position: viewport;
   font-size:25px;
   word-break: break-all;
   color: aqua;
 }
 
 body {
+  position: viewport;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   background-color: whitesmoke;
@@ -79,29 +86,35 @@ body {
 }
 
 .container {
+  position: viewport;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 0;
   overflow: hidden;
 }
 .imgContainer {
+  position: viewport;
   float: left;
 }
 
 div.linkdiv{
+  position: viewport;
   background-color: #4aaaa5;
   width: 100%;
   height: 35px;
 }
 .linkdiv a{
+  position: viewport;
   text-decoration: none;
 }
 
 .linkdiv h1{
+  position: viewport;
   color: #fff;
 }
 
 div.hangman {
+  position: viewport;
   text-align: center;
   height: 150px; 
   width: 200px; 
@@ -116,6 +129,7 @@ div.hangman {
 
 
 div.rpggame {
+  position: viewport;
   text-align: center;
   height: 150px;
   width: 200px;
@@ -129,6 +143,7 @@ div.rpggame {
 }
 
 div.trivia {
+  position: viewport;
   text-align: center;
   height: 150px;
   width: 200px;
@@ -142,6 +157,7 @@ div.trivia {
 }
 
 div.rutgers {
+  position: viewport;
   text-align: center;
   height: 150px;
   width: 200px;
@@ -155,6 +171,7 @@ div.rutgers {
 }
 
 div.rock {
+  position: viewport;
   text-align: center;
   height: 150px;
   width: 200px;
@@ -168,10 +185,12 @@ div.rock {
 }
 
 #bio-image {
+  position: viewport;
   float: left;
 }
 
 input[type=text], textarea {
+  position: viewport;
   width: 90%;
   padding: 6px 12px 6px 12px;
   border: 1px solid #ccc;
@@ -186,9 +205,11 @@ input[type=text], textarea {
 }
 
 form label{
+  position: viewport;
   margin-left: 3%;
 }
 input[type=submit] {
+  position: viewport;
   background-color: aqua;
   color: white;
   padding: 12px 20px;
@@ -199,5 +220,16 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
+  position: viewport;
   background-color: aqua;
+}
+
+@media screen and (max-width: 960px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 640px) {
+  .header {
+    position:fixed;
+  }
 }
